@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF254211FFC7B77009D7E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF254201FFC7B77009D7E43 /* AppDelegate.swift */; };
+		EFF254231FFC7B77009D7E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF254221FFC7B77009D7E43 /* ViewController.swift */; };
+		EFF254261FFC7B77009D7E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF254241FFC7B77009D7E43 /* Main.storyboard */; };
+		EFF254281FFC7B77009D7E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF254271FFC7B77009D7E43 /* Assets.xcassets */; };
+		EFF2542B1FFC7B77009D7E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF254291FFC7B77009D7E43 /* LaunchScreen.storyboard */; };
+		EFF254361FFC7B77009D7E43 /* FMusicOfflineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF254351FFC7B77009D7E43 /* FMusicOfflineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFF254321FFC7B77009D7E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF254151FFC7B77009D7E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF2541C1FFC7B77009D7E43;
+			remoteInfo = FMusicOffline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFF2541D1FFC7B77009D7E43 /* FMusicOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMusicOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF254201FFC7B77009D7E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFF254221FFC7B77009D7E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFF254251FFC7B77009D7E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFF254271FFC7B77009D7E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFF2542A1FFC7B77009D7E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFF2542C1FFC7B77009D7E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF254311FFC7B77009D7E43 /* FMusicOfflineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMusicOfflineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF254351FFC7B77009D7E43 /* FMusicOfflineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMusicOfflineTests.swift; sourceTree = "<group>"; };
+		EFF254371FFC7B77009D7E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF2541A1FFC7B77009D7E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF2542E1FFC7B77009D7E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF254141FFC7B77009D7E43 = {
+			isa = PBXGroup;
+			children = (
+				EFF2541F1FFC7B77009D7E43 /* FMusicOffline */,
+				EFF254341FFC7B77009D7E43 /* FMusicOfflineTests */,
+				EFF2541E1FFC7B77009D7E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF2541E1FFC7B77009D7E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF2541D1FFC7B77009D7E43 /* FMusicOffline.app */,
+				EFF254311FFC7B77009D7E43 /* FMusicOfflineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF2541F1FFC7B77009D7E43 /* FMusicOffline */ = {
+			isa = PBXGroup;
+			children = (
+				EFF254201FFC7B77009D7E43 /* AppDelegate.swift */,
+				EFF254221FFC7B77009D7E43 /* ViewController.swift */,
+				EFF254241FFC7B77009D7E43 /* Main.storyboard */,
+				EFF254271FFC7B77009D7E43 /* Assets.xcassets */,
+				EFF254291FFC7B77009D7E43 /* LaunchScreen.storyboard */,
+				EFF2542C1FFC7B77009D7E43 /* Info.plist */,
+			);
+			path = FMusicOffline;
+			sourceTree = "<group>";
+		};
+		EFF254341FFC7B77009D7E43 /* FMusicOfflineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF254351FFC7B77009D7E43 /* FMusicOfflineTests.swift */,
+				EFF254371FFC7B77009D7E43 /* Info.plist */,
+			);
+			path = FMusicOfflineTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF2541C1FFC7B77009D7E43 /* FMusicOffline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF2543A1FFC7B77009D7E43 /* Build configuration list for PBXNativeTarget "FMusicOffline" */;
+			buildPhases = (
+				EFF254191FFC7B77009D7E43 /* Sources */,
+				EFF2541A1FFC7B77009D7E43 /* Frameworks */,
+				EFF2541B1FFC7B77009D7E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMusicOffline;
+			productName = FMusicOffline;
+			productReference = EFF2541D1FFC7B77009D7E43 /* FMusicOffline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF254301FFC7B77009D7E43 /* FMusicOfflineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF2543D1FFC7B77009D7E43 /* Build configuration list for PBXNativeTarget "FMusicOfflineTests" */;
+			buildPhases = (
+				EFF2542D1FFC7B77009D7E43 /* Sources */,
+				EFF2542E1FFC7B77009D7E43 /* Frameworks */,
+				EFF2542F1FFC7B77009D7E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF254331FFC7B77009D7E43 /* PBXTargetDependency */,
+			);
+			name = FMusicOfflineTests;
+			productName = FMusicOfflineTests;
+			productReference = EFF254311FFC7B77009D7E43 /* FMusicOfflineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF254151FFC7B77009D7E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = com.framgia;
+				TargetAttributes = {
+					EFF2541C1FFC7B77009D7E43 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EFF254301FFC7B77009D7E43 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFF2541C1FFC7B77009D7E43;
+					};
+				};
+			};
+			buildConfigurationList = EFF254181FFC7B77009D7E43 /* Build configuration list for PBXProject "FMusicOffline" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF254141FFC7B77009D7E43;
+			productRefGroup = EFF2541E1FFC7B77009D7E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF2541C1FFC7B77009D7E43 /* FMusicOffline */,
+				EFF254301FFC7B77009D7E43 /* FMusicOfflineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF2541B1FFC7B77009D7E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF2542B1FFC7B77009D7E43 /* LaunchScreen.storyboard in Resources */,
+				EFF254281FFC7B77009D7E43 /* Assets.xcassets in Resources */,
+				EFF254261FFC7B77009D7E43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF2542F1FFC7B77009D7E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF254191FFC7B77009D7E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF254231FFC7B77009D7E43 /* ViewController.swift in Sources */,
+				EFF254211FFC7B77009D7E43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF2542D1FFC7B77009D7E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF254361FFC7B77009D7E43 /* FMusicOfflineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFF254331FFC7B77009D7E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF2541C1FFC7B77009D7E43 /* FMusicOffline */;
+			targetProxy = EFF254321FFC7B77009D7E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFF254241FFC7B77009D7E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF254251FFC7B77009D7E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF254291FFC7B77009D7E43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF2542A1FFC7B77009D7E43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF254381FFC7B77009D7E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFF254391FFC7B77009D7E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF2543B1FFC7B77009D7E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FMusicOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.FMusicOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF2543C1FFC7B77009D7E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FMusicOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.FMusicOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFF2543E1FFC7B77009D7E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FMusicOfflineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.FMusicOfflineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMusicOffline.app/FMusicOffline";
+			};
+			name = Debug;
+		};
+		EFF2543F1FFC7B77009D7E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FMusicOfflineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.FMusicOfflineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMusicOffline.app/FMusicOffline";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF254181FFC7B77009D7E43 /* Build configuration list for PBXProject "FMusicOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF254381FFC7B77009D7E43 /* Debug */,
+				EFF254391FFC7B77009D7E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF2543A1FFC7B77009D7E43 /* Build configuration list for PBXNativeTarget "FMusicOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF2543B1FFC7B77009D7E43 /* Debug */,
+				EFF2543C1FFC7B77009D7E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF2543D1FFC7B77009D7E43 /* Build configuration list for PBXNativeTarget "FMusicOfflineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF2543E1FFC7B77009D7E43 /* Debug */,
+				EFF2543F1FFC7B77009D7E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF254151FFC7B77009D7E43 /* Project object */;
+}
