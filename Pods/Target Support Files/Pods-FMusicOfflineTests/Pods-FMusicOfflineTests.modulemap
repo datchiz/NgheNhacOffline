@@ -1,0 +1,6 @@
+framework module Pods_FMusicOfflineTests {
+  umbrella header "Pods-FMusicOfflineTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

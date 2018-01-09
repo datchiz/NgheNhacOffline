@@ -1,42 +1,41 @@
 //
-//  ViewController.swift
+//  SongViewController.swift
 //  FMusicOffline
 //
-//  Created by mai.quoc.dat on 1/3/18.
+//  Created by mai.quoc.dat on 1/8/18.
 //  Copyright © 2018 com.framgia. All rights reserved.
 //
 
 import UIKit
 
-class SongViewController: UITableViewController {
+class SongViewController: UIViewController {
+    let SONG_CELL_IDENTIFIER = "SongCellIdentifier"
     
-    @IBOutlet weak var carousel: iCarousel!
+    @IBOutlet weak var songTableView: UITableView!
+    
+    var songViewModel: SongViewModel = SongViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        carousel.type = .rotary
-        carousel.backgroundColor = .clear
-        tableView.backgroundView = UIImageView(image: UIImage(named: "background"))
+
+//        view.backgroundColor = UIColor(patternImage: UIImage(named: "background")!)
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "background")
+        self.view.insertSubview(backgroundImage, at: 0)
     }
 }
 
-extension SongViewController : iCarouselDataSource {
-    func numberOfItems(in carousel: iCarousel) -> Int {
-        return 10
+extension SongViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return songViewModel.numberOfRowsInSection()
     }
     
-    func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
-        let imageView: UIImageView
-        
-        if view != nil {
-            imageView = view as! UIImageView
-        } else {
-            imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 250, height: 250))
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: SONG_CELL_IDENTIFIER) as? SongTableViewCell else {
+            return UITableViewCell()
         }
-        
-        imageView.image = UIImage(named: "song")
-        
-        return imageView
+        let song = songViewModel.songs[indexPath.row]
+        cell.updateCell(song: song)
+        return cell
     }
 }
-

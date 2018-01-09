@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AAD33F1E5A728CDBD67735B /* Pods_FMusicOfflineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12591C231B52780909E695A8 /* Pods_FMusicOfflineTests.framework */; };
+		EA5FA54C6C0A55CD48C5588F /* Pods_FMusicOffline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D393D07585E145415B68D094 /* Pods_FMusicOffline.framework */; };
 		EF2865631FFDCFEC0073EE6B /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2865621FFDCFEC0073EE6B /* iCarousel.m */; };
 		EF2865681FFDD7300073EE6B /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2865671FFDD7300073EE6B /* music.png */; };
 		EF2865751FFE113C0073EE6B /* ic_play.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2865691FFE11360073EE6B /* ic_play.png */; };
@@ -21,9 +23,13 @@
 		EF28657E1FFE113C0073EE6B /* ic_repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2865721FFE113C0073EE6B /* ic_repeat.png */; };
 		EF28657F1FFE113C0073EE6B /* ic_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2865731FFE113C0073EE6B /* ic_pause.png */; };
 		EF2865801FFE113C0073EE6B /* ic_playing.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2865741FFE113C0073EE6B /* ic_playing.png */; };
+		EF36671620031AE200574BB7 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36671520031AE200574BB7 /* SongTableViewCell.swift */; };
+		EF36671B20031D5000574BB7 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36671A20031D5000574BB7 /* Song.swift */; };
+		EF36671D2003203900574BB7 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36671C2003203900574BB7 /* SongViewModel.swift */; };
+		EF617437200314E70022CEC5 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF617436200314E70022CEC5 /* SongViewController.swift */; };
 		EFA876E81FFF1C920087FD53 /* song.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA876E71FFF1C920087FD53 /* song.png */; };
 		EFF254211FFC7B77009D7E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF254201FFC7B77009D7E43 /* AppDelegate.swift */; };
-		EFF254231FFC7B77009D7E43 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF254221FFC7B77009D7E43 /* SongViewController.swift */; };
+		EFF254231FFC7B77009D7E43 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF254221FFC7B77009D7E43 /* PlayViewController.swift */; };
 		EFF254261FFC7B77009D7E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF254241FFC7B77009D7E43 /* Main.storyboard */; };
 		EFF254281FFC7B77009D7E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF254271FFC7B77009D7E43 /* Assets.xcassets */; };
 		EFF2542B1FFC7B77009D7E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF254291FFC7B77009D7E43 /* LaunchScreen.storyboard */; };
@@ -41,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C56E34CA753EA2B89CD69A7 /* Pods-FMusicOffline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMusicOffline.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMusicOffline/Pods-FMusicOffline.release.xcconfig"; sourceTree = "<group>"; };
+		12591C231B52780909E695A8 /* Pods_FMusicOfflineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMusicOfflineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A07DFDE6364562651D531 /* Pods-FMusicOfflineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMusicOfflineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMusicOfflineTests/Pods-FMusicOfflineTests.release.xcconfig"; sourceTree = "<group>"; };
+		78BAB841250ED97921FADE08 /* Pods-FMusicOffline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMusicOffline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMusicOffline/Pods-FMusicOffline.debug.xcconfig"; sourceTree = "<group>"; };
+		C64E9E2A4D1FF00BE1D51FE9 /* Pods-FMusicOfflineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMusicOfflineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMusicOfflineTests/Pods-FMusicOfflineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D393D07585E145415B68D094 /* Pods_FMusicOffline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMusicOffline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2865601FFDCFEB0073EE6B /* FMusicOffline-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMusicOffline-Bridging-Header.h"; sourceTree = "<group>"; };
 		EF2865611FFDCFEB0073EE6B /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		EF2865621FFDCFEC0073EE6B /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
@@ -57,10 +69,14 @@
 		EF2865721FFE113C0073EE6B /* ic_repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_repeat.png; sourceTree = "<group>"; };
 		EF2865731FFE113C0073EE6B /* ic_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_pause.png; sourceTree = "<group>"; };
 		EF2865741FFE113C0073EE6B /* ic_playing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_playing.png; sourceTree = "<group>"; };
+		EF36671520031AE200574BB7 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		EF36671A20031D5000574BB7 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		EF36671C2003203900574BB7 /* SongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		EF617436200314E70022CEC5 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 		EFA876E71FFF1C920087FD53 /* song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = song.png; sourceTree = "<group>"; };
 		EFF2541D1FFC7B77009D7E43 /* FMusicOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMusicOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF254201FFC7B77009D7E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFF254221FFC7B77009D7E43 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		EFF254221FFC7B77009D7E43 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		EFF254251FFC7B77009D7E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFF254271FFC7B77009D7E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF2542A1FFC7B77009D7E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5FA54C6C0A55CD48C5588F /* Pods_FMusicOffline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +99,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAD33F1E5A728CDBD67735B /* Pods_FMusicOfflineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5C74378C380CC5C6395C110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D393D07585E145415B68D094 /* Pods_FMusicOffline.framework */,
+				12591C231B52780909E695A8 /* Pods_FMusicOfflineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF4AEB8B0BA4FB7A076069E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78BAB841250ED97921FADE08 /* Pods-FMusicOffline.debug.xcconfig */,
+				0C56E34CA753EA2B89CD69A7 /* Pods-FMusicOffline.release.xcconfig */,
+				C64E9E2A4D1FF00BE1D51FE9 /* Pods-FMusicOfflineTests.debug.xcconfig */,
+				4D1A07DFDE6364562651D531 /* Pods-FMusicOfflineTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF2865641FFDD58C0073EE6B /* resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +147,18 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		EF36671720031CD500574BB7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EF36671A20031D5000574BB7 /* Song.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		EFA876E91FFF31510087FD53 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				EF36671C2003203900574BB7 /* SongViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -119,7 +166,9 @@
 		EFD1E9B32002FE310093A9BB /* view */ = {
 			isa = PBXGroup;
 			children = (
-				EFF254221FFC7B77009D7E43 /* SongViewController.swift */,
+				EFF254221FFC7B77009D7E43 /* PlayViewController.swift */,
+				EF617436200314E70022CEC5 /* SongViewController.swift */,
+				EF36671520031AE200574BB7 /* SongTableViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -141,6 +190,8 @@
 				EF2865611FFDCFEB0073EE6B /* iCarousel.h */,
 				EF2865621FFDCFEC0073EE6B /* iCarousel.m */,
 				EF2865601FFDCFEB0073EE6B /* FMusicOffline-Bridging-Header.h */,
+				DFF4AEB8B0BA4FB7A076069E /* Pods */,
+				B5C74378C380CC5C6395C110 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +207,7 @@
 		EFF2541F1FFC7B77009D7E43 /* FMusicOffline */ = {
 			isa = PBXGroup;
 			children = (
+				EF36671720031CD500574BB7 /* model */,
 				EFD1E9B42002FE6E0093A9BB /* interface */,
 				EFD1E9B32002FE310093A9BB /* view */,
 				EFA876E91FFF31510087FD53 /* viewmodel */,
@@ -184,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFF2543A1FFC7B77009D7E43 /* Build configuration list for PBXNativeTarget "FMusicOffline" */;
 			buildPhases = (
+				CF7082DF636738DBAD5E9628 /* [CP] Check Pods Manifest.lock */,
 				EFF254191FFC7B77009D7E43 /* Sources */,
 				EFF2541A1FFC7B77009D7E43 /* Frameworks */,
 				EFF2541B1FFC7B77009D7E43 /* Resources */,
+				F244CDD82CC53209DDF24BC0 /* [CP] Embed Pods Frameworks */,
+				4EAD09E05C5A031FFC465A68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFF2543D1FFC7B77009D7E43 /* Build configuration list for PBXNativeTarget "FMusicOfflineTests" */;
 			buildPhases = (
+				99E7623B18509F6CE5C64487 /* [CP] Check Pods Manifest.lock */,
 				EFF2542D1FFC7B77009D7E43 /* Sources */,
 				EFF2542E1FFC7B77009D7E43 /* Frameworks */,
 				EFF2542F1FFC7B77009D7E43 /* Resources */,
+				E7BEA7E687C782AC9BA83DE6 /* [CP] Embed Pods Frameworks */,
+				CB3A9FAEA23F3BCA89F3FEC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,13 +348,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EAD09E05C5A031FFC465A68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMusicOffline/Pods-FMusicOffline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E7623B18509F6CE5C64487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMusicOfflineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3A9FAEA23F3BCA89F3FEC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMusicOfflineTests/Pods-FMusicOfflineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7082DF636738DBAD5E9628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMusicOffline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BEA7E687C782AC9BA83DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMusicOfflineTests/Pods-FMusicOfflineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F244CDD82CC53209DDF24BC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FMusicOffline/Pods-FMusicOffline-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMusicOffline/Pods-FMusicOffline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFF254191FFC7B77009D7E43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF36671D2003203900574BB7 /* SongViewModel.swift in Sources */,
+				EF36671B20031D5000574BB7 /* Song.swift in Sources */,
 				EF2865631FFDCFEC0073EE6B /* iCarousel.m in Sources */,
-				EFF254231FFC7B77009D7E43 /* SongViewController.swift in Sources */,
+				EF617437200314E70022CEC5 /* SongViewController.swift in Sources */,
+				EF36671620031AE200574BB7 /* SongTableViewCell.swift in Sources */,
+				EFF254231FFC7B77009D7E43 /* PlayViewController.swift in Sources */,
 				EFF254211FFC7B77009D7E43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +614,7 @@
 		};
 		EFF2543B1FFC7B77009D7E43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BAB841250ED97921FADE08 /* Pods-FMusicOffline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -470,6 +637,7 @@
 		};
 		EFF2543C1FFC7B77009D7E43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C56E34CA753EA2B89CD69A7 /* Pods-FMusicOffline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -491,6 +659,7 @@
 		};
 		EFF2543E1FFC7B77009D7E43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64E9E2A4D1FF00BE1D51FE9 /* Pods-FMusicOfflineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +676,7 @@
 		};
 		EFF2543F1FFC7B77009D7E43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1A07DFDE6364562651D531 /* Pods-FMusicOfflineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
