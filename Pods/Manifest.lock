@@ -1,16 +1,27 @@
 PODS:
+  - GCDWebServer (3.4.2):
+    - GCDWebServer/Core (= 3.4.2)
+  - GCDWebServer/Core (3.4.2)
+  - GCDWebServer/WebDAV (3.4.2):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.4.2):
+    - GCDWebServer/Core
   - RxCocoa (4.1.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.1.0)
 
 DEPENDENCIES:
+  - GCDWebServer (~> 3.0)
+  - GCDWebServer/WebDAV (~> 3.0)
+  - GCDWebServer/WebUploader (~> 3.0)
   - RxCocoa
   - RxSwift
 
 SPEC CHECKSUMS:
+  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
   RxCocoa: cc1fec49cdc8fabe645964de7c51c099a36c2aa8
   RxSwift: 4219941c1244c88002901bd87a69d3aea9ae71f0
 
-PODFILE CHECKSUM: f4ca74c08a824786a0ca96aa0619dc45feafbec9
+PODFILE CHECKSUM: c34ccd3df791ad5274718c57a69b88fb521b8900
 
 COCOAPODS: 1.3.1

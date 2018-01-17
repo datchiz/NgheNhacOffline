@@ -7,6 +7,9 @@ target 'FMusicOffline' do
 
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'GCDWebServer/WebDAV', '~> 3.0'
+  pod "GCDWebServer", "~> 3.0"
+  pod "GCDWebServer/WebUploader", "~> 3.0"
 
   # Pods for FMusicOffline
 
